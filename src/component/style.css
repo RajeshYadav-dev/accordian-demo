@@ -1,0 +1,29 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  & h1{
+    color: #291e1e;
+  }
+}
+
+.item{
+  background-color: hsl(182, 25%, 50%);
+  color: white;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.answer{
+  background-color: hsl(185, 80%, 12%);;
+  color:white;
+  text-transform: capitalize;
+}
